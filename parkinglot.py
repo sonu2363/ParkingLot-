@@ -41,8 +41,8 @@ class Car:
         return "No available parking spots for car with license plate {}".format(self.licensePlate)
 
 def generateRandomLicensePlate():
-    random_number = random.randint(1000000, 9999999)
-    return str(random_number)
+    randomNumber = random.randint(1000000, 9999999)
+    return str(randomNumber)
 
 
 def create_car():
@@ -61,7 +61,7 @@ def main():
 
     # Create an array of cars with random license plates
     cars = []
-    for _ in range(30):  # we can change 30 to the desired number of cars
+    for _ in range(30):  # we can chagne 30 as required
         car = create_car()
         cars.append(car)
 
